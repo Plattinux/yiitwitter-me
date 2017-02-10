@@ -5,7 +5,7 @@
 -- Dumped from database version 9.5.5
 -- Dumped by pg_dump version 9.5.5
 
--- Started on 2017-02-10 09:13:46 VET
+-- Started on 2017-02-10 12:30:39 VET
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -461,8 +461,8 @@ SELECT pg_catalog.setval('favorito_id_favorito_seq', 7, true);
 -- Data for Name: idioma; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-INSERT INTO idioma VALUES (1, 'Español');
-INSERT INTO idioma VALUES (2, 'Ingles');
+INSERT INTO idioma (id_idioma, idioma) VALUES (1, 'Español');
+INSERT INTO idioma (id_idioma, idioma) VALUES (2, 'Ingles');
 
 
 --
@@ -480,9 +480,9 @@ SELECT pg_catalog.setval('idioma_id_idioma_seq', 2, true);
 -- Data for Name: pais; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-INSERT INTO pais VALUES (1, 'Venezuela');
-INSERT INTO pais VALUES (2, 'Brasil');
-INSERT INTO pais VALUES (3, 'Peru');
+INSERT INTO pais (id_pais, pais) VALUES (1, 'Venezuela');
+INSERT INTO pais (id_pais, pais) VALUES (2, 'Brasil');
+INSERT INTO pais (id_pais, pais) VALUES (3, 'Peru');
 
 
 --
@@ -500,8 +500,8 @@ SELECT pg_catalog.setval('pais_id_pais_seq', 1, false);
 -- Data for Name: pregunta_secreta; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-INSERT INTO pregunta_secreta VALUES (1, 'Tu primera novia');
-INSERT INTO pregunta_secreta VALUES (2, 'Serie favorita');
+INSERT INTO pregunta_secreta (id_pregunta_secreta, pregunta_secreta) VALUES (1, 'Tu primera novia');
+INSERT INTO pregunta_secreta (id_pregunta_secreta, pregunta_secreta) VALUES (2, 'Serie favorita');
 
 
 --
@@ -519,6 +519,7 @@ SELECT pg_catalog.setval('pregunta_secreta_id_pregunta_secreta_seq', 1, false);
 -- Data for Name: retweet; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
+INSERT INTO retweet (id_retweet, retweet, usuario, fecha_creacion) VALUES (11, 18, 43, '2017-02-10 12:10:20.692115');
 
 
 --
@@ -527,7 +528,7 @@ SELECT pg_catalog.setval('pregunta_secreta_id_pregunta_secreta_seq', 1, false);
 -- Name: retweet_id_retweet_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('retweet_id_retweet_seq', 10, true);
+SELECT pg_catalog.setval('retweet_id_retweet_seq', 11, true);
 
 
 --
@@ -536,7 +537,74 @@ SELECT pg_catalog.setval('retweet_id_retweet_seq', 10, true);
 -- Data for Name: seguidor; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-INSERT INTO seguidor VALUES (19, 1, 2, '2015-09-16 11:33:26.309385');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (19, 1, 2, '2015-09-16 11:33:26.309385');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (30, 42, 45, '2017-02-10 10:36:31.743073');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (31, 1, 34, '2017-02-10 10:36:41.646036');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (32, 34, 45, '2017-02-10 10:36:50.635937');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (33, 43, 40, '2017-02-10 10:37:21.346814');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (34, 35, 34, '2017-02-10 10:37:30.036474');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (35, 35, 34, '2017-02-10 10:37:34.67857');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (36, 35, 1, '2017-02-10 10:38:02.221349');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (38, 35, 34, '2017-02-10 10:38:24.285945');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (39, 34, 44, '2017-02-10 10:38:56.769948');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (40, 34, 43, '2017-02-10 10:39:02.23704');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (42, 34, 42, '2017-02-10 10:39:05.977533');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (43, 43, 44, '2017-02-10 10:39:06.460087');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (44, 34, 41, '2017-02-10 10:39:08.670504');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (45, 34, 40, '2017-02-10 10:39:12.682');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (46, 43, 1, '2017-02-10 10:39:14.115784');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (48, 43, 2, '2017-02-10 10:39:18.29252');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (50, 43, 38, '2017-02-10 10:39:30.709074');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (51, 34, 1, '2017-02-10 10:39:32.984175');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (53, 43, 42, '2017-02-10 10:39:53.460847');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (57, 46, 41, '2017-02-10 10:40:28.605506');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (60, 46, 39, '2017-02-10 10:41:44.930526');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (61, 42, 2, '2017-02-10 10:41:59.794409');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (62, 35, 34, '2017-02-10 10:42:03.604577');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (137, 42, 38, '2017-02-10 11:27:49.456572');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (65, 35, 34, '2017-02-10 10:44:42.176394');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (67, 38, 41, '2017-02-10 11:04:39.540771');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (140, 42, 42, '2017-02-10 11:28:23.235298');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (70, 42, 39, '2017-02-10 11:14:51.585031');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (142, 38, 42, '2017-02-10 11:28:56.54577');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (146, 1, 47, '2017-02-10 11:30:24.487885');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (147, 1, 38, '2017-02-10 11:30:28.028384');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (148, 1, 1, '2017-02-10 11:30:29.209536');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (149, 38, 45, '2017-02-10 11:30:57.694069');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (156, 43, 37, '2017-02-10 11:38:28.313477');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (157, 43, 39, '2017-02-10 11:38:31.158684');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (158, 43, 46, '2017-02-10 11:38:32.78841');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (159, 43, 47, '2017-02-10 11:38:34.576923');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (162, 1, 35, '2017-02-10 11:39:53.068336');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (163, 1, 42, '2017-02-10 11:43:23.317144');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (164, 41, 41, '2017-02-10 11:49:21.432394');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (165, 35, 42, '2017-02-10 11:49:57.277428');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (166, 47, 35, '2017-02-10 11:56:31.079674');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (167, 47, 37, '2017-02-10 11:56:34.983599');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (168, 47, 47, '2017-02-10 11:56:39.013619');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (169, 47, 1, '2017-02-10 11:56:40.473034');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (170, 47, 2, '2017-02-10 11:56:42.724');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (71, 40, 39, '2017-02-10 11:16:10.163008');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (72, 40, 41, '2017-02-10 11:16:18.817795');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (73, 40, 1, '2017-02-10 11:17:14.777287');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (74, 40, 2, '2017-02-10 11:17:22.951693');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (102, 34, 38, '2017-02-10 11:18:16.879703');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (103, 34, 2, '2017-02-10 11:18:23.154689');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (104, 46, 35, '2017-02-10 11:19:21.105987');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (105, 43, 45, '2017-02-10 11:20:10.277543');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (110, 35, 35, '2017-02-10 11:21:13.984576');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (111, 43, 35, '2017-02-10 11:21:41.495147');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (114, 46, 38, '2017-02-10 11:22:32.423844');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (75, 2, 40, '2017-02-10 11:22:50.438604');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (76, 1, 40, '2017-02-10 11:22:57.965779');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (77, 41, 40, '2017-02-10 11:23:09.582002');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (194, 46, 1, '2017-02-10 11:59:46.368506');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (118, 1, 40, '2017-02-10 11:59:58.732822');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (195, 1, 39, '2017-02-10 12:05:40.071168');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (199, 41, 41, '2017-02-10 12:08:59.814339');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (200, 41, 41, '2017-02-10 12:09:44.943559');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (201, 41, 46, '2017-02-10 12:09:50.637771');
+INSERT INTO seguidor (id_seguidor, seguidor, siguiendo, fecha_creacion) VALUES (202, 41, 41, '2017-02-10 12:09:52.932949');
 
 
 --
@@ -545,7 +613,7 @@ INSERT INTO seguidor VALUES (19, 1, 2, '2015-09-16 11:33:26.309385');
 -- Name: seguidor_id_seguidor_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('seguidor_id_seguidor_seq', 28, true);
+SELECT pg_catalog.setval('seguidor_id_seguidor_seq', 202, true);
 
 
 --
@@ -554,11 +622,29 @@ SELECT pg_catalog.setval('seguidor_id_seguidor_seq', 28, true);
 -- Data for Name: tweet; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-INSERT INTO tweet VALUES (5, 'eesto pinta bien', NULL, 2, '2015-09-16 22:41:44.139859');
-INSERT INTO tweet VALUES (10, 'el tweeter desde el modal2', '', 2, '2015-09-17 02:35:23.060322');
-INSERT INTO tweet VALUES (1, 'mi primer tweet', '', 1, '2015-09-16 00:38:22.262166');
-INSERT INTO tweet VALUES (2, 'espale que mas este es mi twett', NULL, 2, '2015-09-16 22:41:18.731977');
-INSERT INTO tweet VALUES (6, 'con ganas de aprender Yii', NULL, 1, '2015-09-16 22:42:07.955146');
+INSERT INTO tweet (id_tweet, tweet, foto, usuario, fecha_creacion) VALUES (5, 'eesto pinta bien', NULL, 2, '2015-09-16 22:41:44.139859');
+INSERT INTO tweet (id_tweet, tweet, foto, usuario, fecha_creacion) VALUES (10, 'el tweeter desde el modal2', '', 2, '2015-09-17 02:35:23.060322');
+INSERT INTO tweet (id_tweet, tweet, foto, usuario, fecha_creacion) VALUES (1, 'mi primer tweet', '', 1, '2015-09-16 00:38:22.262166');
+INSERT INTO tweet (id_tweet, tweet, foto, usuario, fecha_creacion) VALUES (2, 'espale que mas este es mi twett', NULL, 2, '2015-09-16 22:41:18.731977');
+INSERT INTO tweet (id_tweet, tweet, foto, usuario, fecha_creacion) VALUES (6, 'con ganas de aprender Yii', NULL, 1, '2015-09-16 22:42:07.955146');
+INSERT INTO tweet (id_tweet, tweet, foto, usuario, fecha_creacion) VALUES (11, 'primer twett', NULL, 40, '2017-02-10 11:38:40.209657');
+INSERT INTO tweet (id_tweet, tweet, foto, usuario, fecha_creacion) VALUES (12, 'segundo', NULL, 40, '2017-02-10 11:38:49.83689');
+INSERT INTO tweet (id_tweet, tweet, foto, usuario, fecha_creacion) VALUES (13, 'ultimo', NULL, 40, '2017-02-10 11:39:04.657078');
+INSERT INTO tweet (id_tweet, tweet, foto, usuario, fecha_creacion) VALUES (14, 'Baila como Juana la Cubana', '', 42, '2017-02-10 11:54:34.23059');
+INSERT INTO tweet (id_tweet, tweet, foto, usuario, fecha_creacion) VALUES (15, 'este es mi primer tweet esta es una prueba', '', 43, '2017-02-10 11:55:39.163666');
+INSERT INTO tweet (id_tweet, tweet, foto, usuario, fecha_creacion) VALUES (16, 'Esto es otra Prueba', '', 42, '2017-02-10 11:57:28.162113');
+INSERT INTO tweet (id_tweet, tweet, foto, usuario, fecha_creacion) VALUES (17, 'este es mi segundo tweet esta es una prueba', '', 43, '2017-02-10 11:59:47.063399');
+INSERT INTO tweet (id_tweet, tweet, foto, usuario, fecha_creacion) VALUES (18, 'prueba 111', '', 1, '2017-02-10 12:03:33.156148');
+INSERT INTO tweet (id_tweet, tweet, foto, usuario, fecha_creacion) VALUES (19, 'este es mi segundo tweet esta es otra prueba', '', 43, '2017-02-10 12:03:33.748178');
+INSERT INTO tweet (id_tweet, tweet, foto, usuario, fecha_creacion) VALUES (20, 'pruebagenesis', '', 41, '2017-02-10 12:05:30.336942');
+INSERT INTO tweet (id_tweet, tweet, foto, usuario, fecha_creacion) VALUES (21, 'buenas tardes', '', 46, '2017-02-10 12:07:07.728278');
+INSERT INTO tweet (id_tweet, tweet, foto, usuario, fecha_creacion) VALUES (22, '"siganme los bueno"', '', 46, '2017-02-10 12:07:36.956543');
+INSERT INTO tweet (id_tweet, tweet, foto, usuario, fecha_creacion) VALUES (23, 'en la clase', '', 34, '2017-02-10 12:08:01.705107');
+INSERT INTO tweet (id_tweet, tweet, foto, usuario, fecha_creacion) VALUES (24, 'prueba tweet', '', 35, '2017-02-10 12:10:15.34533');
+INSERT INTO tweet (id_tweet, tweet, foto, usuario, fecha_creacion) VALUES (25, 'hola', 'hola como están', 38, '2017-02-10 12:10:23.201383');
+INSERT INTO tweet (id_tweet, tweet, foto, usuario, fecha_creacion) VALUES (26, 'weekend', '', 34, '2017-02-10 12:10:35.267841');
+INSERT INTO tweet (id_tweet, tweet, foto, usuario, fecha_creacion) VALUES (27, 'holala jajaja', 'holala', 38, '2017-02-10 12:16:41.540009');
+INSERT INTO tweet (id_tweet, tweet, foto, usuario, fecha_creacion) VALUES (28, 'tweee', '', 35, '2017-02-10 12:23:14.758862');
 
 
 --
@@ -567,7 +653,7 @@ INSERT INTO tweet VALUES (6, 'con ganas de aprender Yii', NULL, 1, '2015-09-16 2
 -- Name: tweet_id_tweet_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('tweet_id_tweet_seq', 10, true);
+SELECT pg_catalog.setval('tweet_id_tweet_seq', 28, true);
 
 
 --
@@ -576,8 +662,21 @@ SELECT pg_catalog.setval('tweet_id_tweet_seq', 10, true);
 -- Data for Name: usuario; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-INSERT INTO usuario VALUES (1, 'leninmhs', 'leninmhs@gmail.com', 'Lenin Hernandez', 'e10adc3949ba59abbe56e057f20f883e', 2, 1, NULL, '', '', 'leninmhs.jpg', '', false, '1983-09-14 00:33:08.183621', NULL, NULL);
-INSERT INTO usuario VALUES (2, 'lorendy', 'lorendym@plattinux.com', 'Lorendy Martiez', 'e10adc3949ba59abbe56e057f20f883e', 1, NULL, NULL, '', '', 'gato.jpeg', '', false, '2015-09-14 01:50:36.382064', '', '');
+INSERT INTO usuario (id_usuario, usuario, correo, nombre_completo, password, fk_idioma, fk_pais, fk_pregunta_secreta, respuesta_secreta, telefono, foto_perfil, imagen_fondo, activo, fecha_creacion, sitioweb, biografia) VALUES (42, 'lmendoza', 'mendozaleonardo89@gmail.com', 'Leonardo F Mendoza', 'e10adc3949ba59abbe56e057f20f883e', 1, 1, 2, 'Sailor Moon', '04127320483', '', '', NULL, '2017-02-10 09:55:48.446458', '', 'Soy Divertido Sigueme');
+INSERT INTO usuario (id_usuario, usuario, correo, nombre_completo, password, fk_idioma, fk_pais, fk_pregunta_secreta, respuesta_secreta, telefono, foto_perfil, imagen_fondo, activo, fecha_creacion, sitioweb, biografia) VALUES (45, 'Santos', 'santos@hotmail.com', 'Santos Marco', 'e10adc3949ba59abbe56e057f20f883e', 1, 1, 2, 'la familia', '0426555555', NULL, '', NULL, '2017-02-10 10:09:20.573171', '', '');
+INSERT INTO usuario (id_usuario, usuario, correo, nombre_completo, password, fk_idioma, fk_pais, fk_pregunta_secreta, respuesta_secreta, telefono, foto_perfil, imagen_fondo, activo, fecha_creacion, sitioweb, biografia) VALUES (35, 'elvalera', 'elvis.tecno@gmail.com', 'Elvis Valera', 'e10adc3949ba59abbe56e057f20f883e', 1, 3, 1, 'Liskerdenkerly ', '04247282315', 'fotos-de-perfil.jpg', '', NULL, '2017-02-10 09:51:00.812093', 'https://github.com/elvalera/cursoyii', '');
+INSERT INTO usuario (id_usuario, usuario, correo, nombre_completo, password, fk_idioma, fk_pais, fk_pregunta_secreta, respuesta_secreta, telefono, foto_perfil, imagen_fondo, activo, fecha_creacion, sitioweb, biografia) VALUES (37, 'usuario', 'usuario@gmail.com', 'Usuario Prueba', 'e10adc3949ba59abbe56e057f20f883e', NULL, 2, NULL, '', '', 'wallhaven-340532.jpg', '', NULL, '2017-02-10 09:51:35.292052', '', '');
+INSERT INTO usuario (id_usuario, usuario, correo, nombre_completo, password, fk_idioma, fk_pais, fk_pregunta_secreta, respuesta_secreta, telefono, foto_perfil, imagen_fondo, activo, fecha_creacion, sitioweb, biografia) VALUES (39, 'Pacheco9', 'pachecohernandez09@gmail.com', 'Jose Gr Pacheco', 'e10adc3949ba59abbe56e057f20f883e', 1, 1, 2, 'el chavo', '04241594743', 'Captura de pantalla de 2016-10-03 22:30:07.png', 'Mvp', NULL, '2017-02-10 09:54:31.806156', '', 'trabajador y responsable');
+INSERT INTO usuario (id_usuario, usuario, correo, nombre_completo, password, fk_idioma, fk_pais, fk_pregunta_secreta, respuesta_secreta, telefono, foto_perfil, imagen_fondo, activo, fecha_creacion, sitioweb, biografia) VALUES (46, 'josep', 'sistalterno09@gmail.com', 'Jose Pacheco', 'd93591bdf7860e1e4ee2fca799911215', 1, 2, 2, 'nba', '04241594743', 'cavaliers.jpg', 'Mvp', NULL, '2017-02-10 10:28:23.415686', '', 'sss');
+INSERT INTO usuario (id_usuario, usuario, correo, nombre_completo, password, fk_idioma, fk_pais, fk_pregunta_secreta, respuesta_secreta, telefono, foto_perfil, imagen_fondo, activo, fecha_creacion, sitioweb, biografia) VALUES (47, 'Cexxxar', 'cjuzcategui@fundabit.gob.ve', 'César Uzcátegui', 'e10adc3949ba59abbe56e057f20f883e', 1, 1, 2, 'Saint Seiya', '04167209884', 'shrek.jpeg', 'cesar', NULL, '2017-02-10 11:23:20.280282', '', 'Hallo Guten tag');
+INSERT INTO usuario (id_usuario, usuario, correo, nombre_completo, password, fk_idioma, fk_pais, fk_pregunta_secreta, respuesta_secreta, telefono, foto_perfil, imagen_fondo, activo, fecha_creacion, sitioweb, biografia) VALUES (38, 'cristobal', 'Cristobalagr12031992@gmail.com', 'Crsitobal Andres González Ravelo', 'e10adc3949ba59abbe56e057f20f883e', 1, 1, 2, 'dragon ball ', '04129081503', 'Captura de pantalla de 2016-10-03 22:30:07.png', 'paisajes', NULL, '2017-02-10 09:52:43.907932', 'https://www.google.co.ve/search?q=gato+riendose&biw=1366&bih', 'pais');
+INSERT INTO usuario (id_usuario, usuario, correo, nombre_completo, password, fk_idioma, fk_pais, fk_pregunta_secreta, respuesta_secreta, telefono, foto_perfil, imagen_fondo, activo, fecha_creacion, sitioweb, biografia) VALUES (1, 'leninmhs', 'leninmhs@gmail.com', 'Lenin Hernandez', 'e10adc3949ba59abbe56e057f20f883e', 2, 1, NULL, '', '', 'leninmhs.jpg', '', false, '1983-09-14 00:33:08.183621', NULL, NULL);
+INSERT INTO usuario (id_usuario, usuario, correo, nombre_completo, password, fk_idioma, fk_pais, fk_pregunta_secreta, respuesta_secreta, telefono, foto_perfil, imagen_fondo, activo, fecha_creacion, sitioweb, biografia) VALUES (2, 'lorendy', 'lorendym@plattinux.com', 'Lorendy Martiez', 'e10adc3949ba59abbe56e057f20f883e', 1, NULL, NULL, '', '', 'gato.jpeg', '', false, '2015-09-14 01:50:36.382064', '', '');
+INSERT INTO usuario (id_usuario, usuario, correo, nombre_completo, password, fk_idioma, fk_pais, fk_pregunta_secreta, respuesta_secreta, telefono, foto_perfil, imagen_fondo, activo, fecha_creacion, sitioweb, biografia) VALUES (40, 'edwingarcia', 'ejgarcia@fundabit.gob.ve', 'Edwin Garcia', 'e10adc3949ba59abbe56e057f20f883e', 1, 1, 1, 'novia', '04265161644', 'edwingarcia.jpg', '', NULL, '2017-02-10 09:55:26.209762', '', '');
+INSERT INTO usuario (id_usuario, usuario, correo, nombre_completo, password, fk_idioma, fk_pais, fk_pregunta_secreta, respuesta_secreta, telefono, foto_perfil, imagen_fondo, activo, fecha_creacion, sitioweb, biografia) VALUES (41, 'genesis', 'geny.462@gmail.com', 'genesis garcia', 'e10adc3949ba59abbe56e057f20f883e', 1, 1, 2, 'doctorh', '0123456789', NULL, '', NULL, '2017-02-10 09:55:36.479926', '', '');
+INSERT INTO usuario (id_usuario, usuario, correo, nombre_completo, password, fk_idioma, fk_pais, fk_pregunta_secreta, respuesta_secreta, telefono, foto_perfil, imagen_fondo, activo, fecha_creacion, sitioweb, biografia) VALUES (43, 'moisesurbano', 'moisesurbano@gmail.com', 'Moisés Caleb Urbano Fuentes', '157ef76d924b88494ba4fcae066116d4', 1, 1, 2, 'Dragonball', '04169129457', 'Navegantes-del-Magallanes-Logo-1-.jpg', '', NULL, '2017-02-10 09:56:04.370463', 'https://www.fundabit.gob.ve', 'trabajo en fundabit');
+INSERT INTO usuario (id_usuario, usuario, correo, nombre_completo, password, fk_idioma, fk_pais, fk_pregunta_secreta, respuesta_secreta, telefono, foto_perfil, imagen_fondo, activo, fecha_creacion, sitioweb, biografia) VALUES (44, 'Cexxxar88', 'cjuzcategui@me.gob.ve', 'César Uzcátegui', 'e10adc3949ba59abbe56e057f20f883e', 1, 1, 2, 'Saint Seiya', '04167209884', 'shrek.jpeg', '', NULL, '2017-02-10 09:56:17.590407', '', 'Hallo Guten tag');
+INSERT INTO usuario (id_usuario, usuario, correo, nombre_completo, password, fk_idioma, fk_pais, fk_pregunta_secreta, respuesta_secreta, telefono, foto_perfil, imagen_fondo, activo, fecha_creacion, sitioweb, biografia) VALUES (34, 'jap', 'jespuro@gmail.com', 'Jesus Andres Puro', 'e10adc3949ba59abbe56e057f20f883e', 1, 1, 1, 'laura', '04243312442', '', '', NULL, '2017-02-10 09:48:33.130938', '', 'div sistemas');
 
 
 --
@@ -586,7 +685,7 @@ INSERT INTO usuario VALUES (2, 'lorendy', 'lorendym@plattinux.com', 'Lorendy Mar
 -- Name: usuario_id_usuario_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('usuario_id_usuario_seq', 30, true);
+SELECT pg_catalog.setval('usuario_id_usuario_seq', 47, true);
 
 
 --
@@ -763,7 +862,7 @@ GRANT ALL ON SCHEMA public TO postgres;
 GRANT ALL ON SCHEMA public TO PUBLIC;
 
 
--- Completed on 2017-02-10 09:13:47 VET
+-- Completed on 2017-02-10 12:30:39 VET
 
 --
 -- PostgreSQL database dump complete
