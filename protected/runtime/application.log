@@ -718,3 +718,1193 @@ REQUEST_URI=/yiitwitter/index.php?r=usuario/personalizado&idusuario=1&fechaconsu
 in /home/lenin/www/yiitwitter/protected/views/usuario/mivista.php (16)
 in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (72)
 in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:45:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Invalid request. Please do not repeat this request again.' in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php:162
+Stack trace:
+#0 [internal function]: UsuarioController->actionDelete('31')
+#1 /home/lenin/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(UsuarioController), Array)
+#2 /home/lenin/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UsuarioController), Object(ReflectionMethod), Array)
+#3 /home/lenin/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/lenin/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/lenin/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/lenin/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/lenin/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/lenin/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/lenin/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#12 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/delete')
+#13 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /home/lenin/www/yiitwitter/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiitwitter/index.php?r=usuario/delete&id=31
+HTTP_REFERER=http://192.168.1.141/yiitwitter/
+---
+2017/02/10 09:47:09 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:47:12 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:47:13 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:47:17 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:47:19 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:47:21 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:47:23 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:47:26 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:47:35 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:47:42 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:47:42 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:48:01 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:48:03 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:48:05 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:48:12 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:48:18 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:48:27 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:48:28 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:48:30 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:48:33 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:48:34 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:48:36 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:48:39 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:48:43 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:48:48 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Invalid request. Please do not repeat this request again.' in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php:162
+Stack trace:
+#0 [internal function]: UsuarioController->actionDelete('32')
+#1 /home/lenin/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(UsuarioController), Array)
+#2 /home/lenin/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UsuarioController), Object(ReflectionMethod), Array)
+#3 /home/lenin/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/lenin/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/lenin/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/lenin/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/lenin/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/lenin/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/lenin/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#12 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/delete')
+#13 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /home/lenin/www/yiitwitter/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiitwitter/index.php?r=usuario/delete&id=32
+HTTP_REFERER=http://192.168.1.141/yiitwitter/index.php?r=usuario/admin
+---
+2017/02/10 09:48:51 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Invalid request. Please do not repeat this request again.' in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php:162
+Stack trace:
+#0 [internal function]: UsuarioController->actionDelete('31')
+#1 /home/lenin/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(UsuarioController), Array)
+#2 /home/lenin/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UsuarioController), Object(ReflectionMethod), Array)
+#3 /home/lenin/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/lenin/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/lenin/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/lenin/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/lenin/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/lenin/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/lenin/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#12 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/delete')
+#13 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /home/lenin/www/yiitwitter/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiitwitter/index.php?r=usuario/delete&id=31
+HTTP_REFERER=http://192.168.1.141/yiitwitter/index.php?r=usuario/admin
+---
+2017/02/10 09:49:00 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:49:01 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:49:05 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:49:08 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:49:08 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:49:11 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:49:21 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:49:23 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Invalid request. Please do not repeat this request again.' in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php:162
+Stack trace:
+#0 [internal function]: UsuarioController->actionDelete('31')
+#1 /home/lenin/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(UsuarioController), Array)
+#2 /home/lenin/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UsuarioController), Object(ReflectionMethod), Array)
+#3 /home/lenin/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/lenin/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/lenin/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/lenin/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/lenin/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/lenin/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/lenin/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#12 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/delete')
+#13 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /home/lenin/www/yiitwitter/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiitwitter/index.php?r=usuario/delete&id=31
+HTTP_REFERER=http://192.168.1.141/yiitwitter/index.php
+---
+2017/02/10 09:49:25 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:49:28 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:49:31 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Invalid request. Please do not repeat this request again.' in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php:162
+Stack trace:
+#0 [internal function]: UsuarioController->actionDelete('32')
+#1 /home/lenin/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(UsuarioController), Array)
+#2 /home/lenin/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UsuarioController), Object(ReflectionMethod), Array)
+#3 /home/lenin/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/lenin/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/lenin/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/lenin/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/lenin/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/lenin/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/lenin/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#12 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/delete')
+#13 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /home/lenin/www/yiitwitter/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiitwitter/index.php?r=usuario/delete&id=32
+HTTP_REFERER=http://192.168.1.141/yiitwitter/index.php
+---
+2017/02/10 09:49:34 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:49:37 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (99)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:49:37 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:49:39 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:49:40 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:49:42 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:49:43 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:49:46 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:49:47 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:49:51 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (99)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:49:51 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:49:53 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:50:00 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:50:10 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:50:10 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:50:16 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:50:17 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:50:20 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:50:22 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:50:25 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (99)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:50:25 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:50:40 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Invalid request. Please do not repeat this request again.' in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php:162
+Stack trace:
+#0 [internal function]: UsuarioController->actionDelete('31')
+#1 /home/lenin/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(UsuarioController), Array)
+#2 /home/lenin/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UsuarioController), Object(ReflectionMethod), Array)
+#3 /home/lenin/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/lenin/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/lenin/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/lenin/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/lenin/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/lenin/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/lenin/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#12 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/delete')
+#13 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /home/lenin/www/yiitwitter/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiitwitter/index.php?r=usuario/delete&id=31
+HTTP_REFERER=http://192.168.1.141/yiitwitter/index.php
+---
+2017/02/10 09:50:43 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:50:49 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:50:51 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:50:51 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (99)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:50:51 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:50:59 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:00 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (99)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:00 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:02 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:04 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:05 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:05 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:11 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:12 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (99)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:12 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:13 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:14 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:15 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:17 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:18 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:19 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:19 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:20 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:21 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:28 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:35 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:35 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (99)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:35 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:39 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:51:44 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Invalid request. Please do not repeat this request again.' in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php:162
+Stack trace:
+#0 [internal function]: UsuarioController->actionDelete('36')
+#1 /home/lenin/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(UsuarioController), Array)
+#2 /home/lenin/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UsuarioController), Object(ReflectionMethod), Array)
+#3 /home/lenin/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/lenin/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/lenin/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/lenin/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/lenin/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/lenin/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/lenin/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#12 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/delete')
+#13 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /home/lenin/www/yiitwitter/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiitwitter/index.php?r=usuario/delete&id=36
+HTTP_REFERER=http://192.168.1.141/yiitwitter/index.php
+---
+2017/02/10 09:51:48 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Invalid request. Please do not repeat this request again.' in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php:162
+Stack trace:
+#0 [internal function]: UsuarioController->actionDelete('31')
+#1 /home/lenin/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(UsuarioController), Array)
+#2 /home/lenin/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UsuarioController), Object(ReflectionMethod), Array)
+#3 /home/lenin/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/lenin/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/lenin/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/lenin/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/lenin/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/lenin/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/lenin/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#12 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/delete')
+#13 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /home/lenin/www/yiitwitter/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiitwitter/index.php?r=usuario/delete&id=31
+HTTP_REFERER=http://192.168.1.141/yiitwitter/index.php?r=usuario/admin
+---
+2017/02/10 09:51:56 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Invalid request. Please do not repeat this request again.' in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php:162
+Stack trace:
+#0 [internal function]: UsuarioController->actionDelete('31')
+#1 /home/lenin/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(UsuarioController), Array)
+#2 /home/lenin/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UsuarioController), Object(ReflectionMethod), Array)
+#3 /home/lenin/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/lenin/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/lenin/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/lenin/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/lenin/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/lenin/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/lenin/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#12 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/delete')
+#13 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /home/lenin/www/yiitwitter/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiitwitter/index.php?r=usuario/delete&id=31
+HTTP_REFERER=http://192.168.1.141/yiitwitter/index.php
+---
+2017/02/10 09:52:01 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Invalid request. Please do not repeat this request again.' in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php:162
+Stack trace:
+#0 [internal function]: UsuarioController->actionDelete('37')
+#1 /home/lenin/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(UsuarioController), Array)
+#2 /home/lenin/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UsuarioController), Object(ReflectionMethod), Array)
+#3 /home/lenin/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/lenin/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/lenin/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/lenin/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/lenin/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/lenin/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/lenin/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#12 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/delete')
+#13 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /home/lenin/www/yiitwitter/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiitwitter/index.php?r=usuario/delete&id=37
+HTTP_REFERER=http://192.168.1.141/yiitwitter/index.php?r=usuario/admin
+---
+2017/02/10 09:52:03 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:52:10 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:52:14 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:52:17 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:52:24 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:52:42 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:52:43 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (99)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:52:54 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Invalid request. Please do not repeat this request again.' in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php:162
+Stack trace:
+#0 [internal function]: UsuarioController->actionDelete('32')
+#1 /home/lenin/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(UsuarioController), Array)
+#2 /home/lenin/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UsuarioController), Object(ReflectionMethod), Array)
+#3 /home/lenin/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/lenin/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/lenin/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/lenin/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/lenin/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/lenin/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/lenin/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#12 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/delete')
+#13 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /home/lenin/www/yiitwitter/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiitwitter/index.php?r=usuario/delete&id=32
+HTTP_REFERER=http://192.168.1.141/yiitwitter/index.php
+---
+2017/02/10 09:53:43 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:54:02 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:54:06 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:54:09 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:54:21 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:54:25 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:54:27 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:54:29 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:54:31 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (99)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:54:31 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:54:32 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:54:34 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:54:36 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:54:39 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:54:45 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:54:48 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:54:53 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:54:53 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:54:56 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:54:57 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:54:57 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:54:59 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:00 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:01 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:02 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:04 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:04 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:06 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:07 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:08 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:09 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:12 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:12 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:12 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:12 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:13 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:13 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:16 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:16 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:16 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:19 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:24 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:26 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (99)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:26 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:26 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:27 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:30 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:32 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:33 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:34 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:35 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:36 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (99)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:38 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:38 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:41 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:41 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:46 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:50 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:55:54 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:56:04 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (99)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:56:04 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:56:09 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:56:17 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (99)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:56:17 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 09:56:55 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Invalid request. Please do not repeat this request again.' in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php:162
+Stack trace:
+#0 [internal function]: UsuarioController->actionDelete('39')
+#1 /home/lenin/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(UsuarioController), Array)
+#2 /home/lenin/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UsuarioController), Object(ReflectionMethod), Array)
+#3 /home/lenin/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/lenin/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/lenin/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/lenin/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/lenin/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/lenin/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/lenin/www/yii/framework/web/CWebApplication.php(282): CController->run('delete')
+#12 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/delete')
+#13 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /home/lenin/www/yiitwitter/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiitwitter/index.php?r=usuario/delete&id=39
+HTTP_REFERER=http://192.168.1.141/yiitwitter/index.php?r=usuario/admin
+---
+2017/02/10 10:07:22 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 10:07:43 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 10:07:52 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 10:08:01 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 10:08:03 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 10:08:05 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 10:08:09 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 10:08:25 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 10:08:39 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 10:09:12 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 10:09:20 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (99)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 10:09:20 [warning] [application] Error al establecer unsafe al atributo "verifyCode" de "Usuario".
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (212)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (95)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 10:10:56 [error] [php] Trying to get property of non-object (/home/lenin/www/yiitwitter/protected/components/UserIdentity.php:19)
+Stack trace:
+#0 /home/lenin/www/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /home/lenin/www/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /home/lenin/www/yiitwitter/protected/controllers/SiteController.php(94): LoginForm->validate()
+#3 /home/lenin/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /home/lenin/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/lenin/www/yii/framework/web/CController.php(286): SiteController->runAction()
+#6 /home/lenin/www/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /home/lenin/www/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /home/lenin/www/yiitwitter/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiitwitter/index.php?r=site/login
+in /home/lenin/www/yiitwitter/protected/components/UserIdentity.php (19)
+in /home/lenin/www/yiitwitter/protected/models/LoginForm.php (52)
+in /home/lenin/www/yiitwitter/protected/controllers/SiteController.php (94)
+2017/02/10 10:12:39 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home/lenin/www/yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /home/lenin/www/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home/lenin/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /home/lenin/www/yiitwitter/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiitwitter/index.php?r=gii
+---
+2017/02/10 10:14:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not allowed to access this page.' in /home/lenin/www/yii/framework/gii/GiiModule.php:170
+Stack trace:
+#0 /home/lenin/www/yii/framework/web/CController.php(263): GiiModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /home/lenin/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#3 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /home/lenin/www/yiitwitter/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiitwitter/index.php?r=gii
+---
+2017/02/10 10:33:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php:200
+Stack trace:
+#0 /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php(82): UsuarioController->loadModel('31')
+#1 [internal function]: UsuarioController->actionView('31')
+#2 /home/lenin/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(UsuarioController), Array)
+#3 /home/lenin/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(UsuarioController), Object(ReflectionMethod), Array)
+#4 /home/lenin/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /home/lenin/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /home/lenin/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /home/lenin/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /home/lenin/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /home/lenin/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/lenin/www/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/view')
+#14 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/lenin/www/yiitwitter/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yiitwitter/index.php?r=usuario/view&id=31
+---
+2017/02/10 10:36:18 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  inserción o actualización en la tabla «seguidor» viola la llave foránea «fk_siguiendo»
+DETAIL:  La llave (siguiendo)=(3) no está presente en la tabla «usuario».. La sentencia SQL ejecutada fue: INSERT INTO "seguidor" ("seguidor", "siguiendo") VALUES (:yp0, :yp1).
+in /home/lenin/www/yiitwitter/protected/controllers/SeguidorController.php (11)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 10:36:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[23503]: Foreign key violation: 7 ERROR:  inserción o actualización en la tabla «seguidor» viola la llave foránea «fk_siguiendo»
+DETAIL:  La llave (siguiendo)=(3) no está presente en la tabla «usuario».. The SQL statement executed was: INSERT INTO "seguidor" ("seguidor", "siguiendo") VALUES (:yp0, :yp1)' in /home/lenin/www/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/lenin/www/yii/framework/db/ar/CActiveRecord.php(1080): CDbCommand->execute()
+#1 /home/lenin/www/yii/framework/db/ar/CActiveRecord.php(809): CActiveRecord->insert(NULL)
+#2 /home/lenin/www/yiitwitter/protected/controllers/SeguidorController.php(11): CActiveRecord->save()
+#3 [internal function]: SeguidorController->actionSeguir('3')
+#4 /home/lenin/www/yii/framework/web/actions/CAction.php(109): ReflectionMethod->invokeArgs(Object(SeguidorController), Array)
+#5 /home/lenin/www/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(SeguidorController), Object(ReflectionMethod), Array)
+#6 /home/lenin/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /home/lenin/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#8 /home/lenin/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /home/lenin/www/yii/framework/web/CWebApplication.php(282): CController->run('seguir')
+#10 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('seguidor/seguir...')
+#11 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#12 /home/lenin/www/yiitwitter/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yiitwitter/index.php?r=seguidor/seguir/id/3
+---
+2017/02/10 11:06:53 [error] [php] Undefined variable: esvisibledejarseguir (/home/lenin/www/yiitwitter/protected/views/usuario/_view.php:36)
+Stack trace:
+#0 /home/lenin/www/yii/framework/zii/widgets/CListView.php(291): UsuarioController->renderFile()
+#1 /home/lenin/www/yii/framework/zii/widgets/CBaseListView.php(181): TbListView->renderItems()
+#2 unknown(0): TbListView->renderSection()
+#3 /home/lenin/www/yii/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback()
+#4 /home/lenin/www/yii/framework/zii/widgets/CBaseListView.php(149): TbListView->renderContent()
+#5 /home/lenin/www/yii/framework/web/CBaseController.php(181): TbListView->run()
+#6 /home/lenin/www/yiitwitter/protected/views/usuario/index.php(17): UsuarioController->widget()
+#7 /home/lenin/www/yii/framework/web/CBaseController.php(126): require()
+#8 /home/lenin/www/yii/framework/web/CBaseController.php(95): UsuarioController->renderInternal()
+#9 /home/lenin/www/yii/framework/web/CController.php(869): UsuarioController->renderFile()
+#10 /home/lenin/www/yii/framework/web/CController.php(782): UsuarioController->renderPartial()
+#11 /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php(173): UsuarioController->render()
+#12 /home/lenin/www/yii/framework/web/actions/CInlineAction.php(49): UsuarioController->actionIndex()
+#13 /home/lenin/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#14 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(133): UsuarioController->runAction()
+#15 /home/lenin/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#16 /home/lenin/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#17 /home/lenin/www/yii/framework/web/filters/CInlineFilter.php(58): UsuarioController->filterAccessControl()
+#18 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#19 /home/lenin/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#20 /home/lenin/www/yii/framework/web/CController.php(265): UsuarioController->runActionWithFilters()
+#21 /home/lenin/www/yii/framework/web/CWebApplication.php(282): UsuarioController->run()
+#22 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#24 /home/lenin/www/yiitwitter/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiitwitter/index.php?r=usuario/
+in /home/lenin/www/yiitwitter/protected/views/usuario/_view.php (36)
+in /home/lenin/www/yiitwitter/protected/views/usuario/index.php (17)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (173)
+2017/02/10 11:07:39 [error] [php] Undefined variable: esvisibleseguir (/home/lenin/www/yiitwitter/protected/views/usuario/_view.php:56)
+Stack trace:
+#0 /home/lenin/www/yii/framework/zii/widgets/CListView.php(291): UsuarioController->renderFile()
+#1 /home/lenin/www/yii/framework/zii/widgets/CBaseListView.php(181): TbListView->renderItems()
+#2 unknown(0): TbListView->renderSection()
+#3 /home/lenin/www/yii/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback()
+#4 /home/lenin/www/yii/framework/zii/widgets/CBaseListView.php(149): TbListView->renderContent()
+#5 /home/lenin/www/yii/framework/web/CBaseController.php(181): TbListView->run()
+#6 /home/lenin/www/yiitwitter/protected/views/usuario/index.php(17): UsuarioController->widget()
+#7 /home/lenin/www/yii/framework/web/CBaseController.php(126): require()
+#8 /home/lenin/www/yii/framework/web/CBaseController.php(95): UsuarioController->renderInternal()
+#9 /home/lenin/www/yii/framework/web/CController.php(869): UsuarioController->renderFile()
+#10 /home/lenin/www/yii/framework/web/CController.php(782): UsuarioController->renderPartial()
+#11 /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php(173): UsuarioController->render()
+#12 /home/lenin/www/yii/framework/web/actions/CInlineAction.php(49): UsuarioController->actionIndex()
+#13 /home/lenin/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#14 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(133): UsuarioController->runAction()
+#15 /home/lenin/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#16 /home/lenin/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#17 /home/lenin/www/yii/framework/web/filters/CInlineFilter.php(58): UsuarioController->filterAccessControl()
+#18 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#19 /home/lenin/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#20 /home/lenin/www/yii/framework/web/CController.php(265): UsuarioController->runActionWithFilters()
+#21 /home/lenin/www/yii/framework/web/CWebApplication.php(282): UsuarioController->run()
+#22 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#23 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#24 /home/lenin/www/yiitwitter/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiitwitter/index.php?r=usuario/
+in /home/lenin/www/yiitwitter/protected/views/usuario/_view.php (56)
+in /home/lenin/www/yiitwitter/protected/views/usuario/index.php (17)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (173)
+2017/02/10 11:25:21 [error] [system.db.CDbCommand] CDbCommand::fetch() falló: SQLSTATE[42601]: Syntax error: 7 ERROR:  error de sintaxis en o cerca de «AND»
+LINE 1: SELECT 1 FROM "seguidor" "t" WHERE seguidor =  AND siguiendo...
+                                                       ^. La sentencia SQL ejecutada fue: SELECT 1 FROM "seguidor" "t" WHERE seguidor =  AND siguiendo = 42  LIMIT 1.
+in /home/lenin/www/yiitwitter/protected/views/usuario/_view.php (35)
+in /home/lenin/www/yiitwitter/protected/views/usuario/index.php (17)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (173)
+2017/02/10 11:25:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42601]: Syntax error: 7 ERROR:  error de sintaxis en o cerca de «AND»
+LINE 1: SELECT 1 FROM "seguidor" "t" WHERE seguidor =  AND siguiendo...
+                                                       ^. The SQL statement executed was: SELECT 1 FROM "seguidor" "t" WHERE seguidor =  AND siguiendo = 42  LIMIT 1' in /home/lenin/www/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/lenin/www/yii/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home/lenin/www/yii/framework/db/ar/CActiveRecord.php(1675): CDbCommand->queryRow()
+#2 /home/lenin/www/yiitwitter/protected/views/usuario/_view.php(35): CActiveRecord->exists('seguidor =  AND...')
+#3 /home/lenin/www/yii/framework/web/CBaseController.php(130): require('/home/lenin/www...')
+#4 /home/lenin/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/lenin/www...', Array, false)
+#5 /home/lenin/www/yii/framework/zii/widgets/CListView.php(291): CBaseController->renderFile('/home/lenin/www...', Array)
+#6 /home/lenin/www/yii/framework/zii/widgets/CBaseListView.php(181): CListView->renderItems()
+#7 [internal function]: CBaseListView->renderSection(Array)
+#8 /home/lenin/www/yii/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#9 /home/lenin/www/yii/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#10 /home/lenin/www/yii/framework/web/CBaseController.php(181): CBaseListView->run()
+#11 /home/lenin/www/yiitwitter/protected/views/usuario/index.php(17): CBaseController->widget('booster.widgets...', Array)
+#12 /home/lenin/www/yii/framework/web/CBaseController.php(126): require('/home/lenin/www...')
+#13 /home/lenin/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/lenin/www...', Array, true)
+#14 /home/lenin/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/lenin/www...', Array, true)
+#15 /home/lenin/www/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#16 /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php(173): CController->render('index', Array)
+#17 /home/lenin/www/yii/framework/web/actions/CInlineAction.php(49): UsuarioController->actionIndex()
+#18 /home/lenin/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#19 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#20 /home/lenin/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#21 /home/lenin/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 /home/lenin/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 /home/lenin/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#25 /home/lenin/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 /home/lenin/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#27 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario')
+#28 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#29 /home/lenin/www/yiitwitter/index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/yiitwitter/index.php?r=usuario
+---
+2017/02/10 11:25:33 [error] [system.db.CDbCommand] CDbCommand::fetch() falló: SQLSTATE[42601]: Syntax error: 7 ERROR:  error de sintaxis en o cerca de «AND»
+LINE 1: SELECT 1 FROM "seguidor" "t" WHERE seguidor =  AND siguiendo...
+                                                       ^. La sentencia SQL ejecutada fue: SELECT 1 FROM "seguidor" "t" WHERE seguidor =  AND siguiendo = 42  LIMIT 1.
+in /home/lenin/www/yiitwitter/protected/views/usuario/_view.php (35)
+in /home/lenin/www/yiitwitter/protected/views/usuario/index.php (17)
+in /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php (173)
+2017/02/10 11:25:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[42601]: Syntax error: 7 ERROR:  error de sintaxis en o cerca de «AND»
+LINE 1: SELECT 1 FROM "seguidor" "t" WHERE seguidor =  AND siguiendo...
+                                                       ^. The SQL statement executed was: SELECT 1 FROM "seguidor" "t" WHERE seguidor =  AND siguiendo = 42  LIMIT 1' in /home/lenin/www/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/lenin/www/yii/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /home/lenin/www/yii/framework/db/ar/CActiveRecord.php(1675): CDbCommand->queryRow()
+#2 /home/lenin/www/yiitwitter/protected/views/usuario/_view.php(35): CActiveRecord->exists('seguidor =  AND...')
+#3 /home/lenin/www/yii/framework/web/CBaseController.php(130): require('/home/lenin/www...')
+#4 /home/lenin/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/lenin/www...', Array, false)
+#5 /home/lenin/www/yii/framework/zii/widgets/CListView.php(291): CBaseController->renderFile('/home/lenin/www...', Array)
+#6 /home/lenin/www/yii/framework/zii/widgets/CBaseListView.php(181): CListView->renderItems()
+#7 [internal function]: CBaseListView->renderSection(Array)
+#8 /home/lenin/www/yii/framework/zii/widgets/CBaseListView.php(164): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#9 /home/lenin/www/yii/framework/zii/widgets/CBaseListView.php(149): CBaseListView->renderContent()
+#10 /home/lenin/www/yii/framework/web/CBaseController.php(181): CBaseListView->run()
+#11 /home/lenin/www/yiitwitter/protected/views/usuario/index.php(17): CBaseController->widget('booster.widgets...', Array)
+#12 /home/lenin/www/yii/framework/web/CBaseController.php(126): require('/home/lenin/www...')
+#13 /home/lenin/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/lenin/www...', Array, true)
+#14 /home/lenin/www/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/lenin/www...', Array, true)
+#15 /home/lenin/www/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#16 /home/lenin/www/yiitwitter/protected/controllers/UsuarioController.php(173): CController->render('index', Array)
+#17 /home/lenin/www/yii/framework/web/actions/CInlineAction.php(49): UsuarioController->actionIndex()
+#18 /home/lenin/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#19 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#20 /home/lenin/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#21 /home/lenin/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 /home/lenin/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 /home/lenin/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#25 /home/lenin/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 /home/lenin/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#27 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario')
+#28 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#29 /home/lenin/www/yiitwitter/index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/yiitwitter/index.php?r=usuario
+---
+2017/02/10 11:38:13 [error] [php] Undefined variable: dataProvider (/home/lenin/www/yiitwitter/protected/views/tweet/index.php:15)
+Stack trace:
+#0 /home/lenin/www/yii/framework/web/CController.php(869): TweetController->renderFile()
+#1 /home/lenin/www/yii/framework/web/CController.php(782): TweetController->renderPartial()
+#2 /home/lenin/www/yiitwitter/protected/controllers/TweetController.php(138): TweetController->render()
+#3 /home/lenin/www/yii/framework/web/actions/CInlineAction.php(49): TweetController->actionIndex()
+#4 /home/lenin/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(133): TweetController->runAction()
+#6 /home/lenin/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /home/lenin/www/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#8 /home/lenin/www/yii/framework/web/filters/CInlineFilter.php(58): TweetController->filterAccessControl()
+#9 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#10 /home/lenin/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /home/lenin/www/yii/framework/web/CController.php(265): TweetController->runActionWithFilters()
+#12 /home/lenin/www/yii/framework/web/CWebApplication.php(282): TweetController->run()
+#13 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#15 /home/lenin/www/yiitwitter/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiitwitter/index.php?r=tweet
+in /home/lenin/www/yiitwitter/protected/views/tweet/index.php (15)
+in /home/lenin/www/yiitwitter/protected/controllers/TweetController.php (138)
+in /home/lenin/www/yiitwitter/index.php (13)
+2017/02/10 11:52:40 [error] [php] Trying to get property of non-object (/home/lenin/www/yiitwitter/protected/components/UserIdentity.php:19)
+Stack trace:
+#0 /home/lenin/www/yii/framework/validators/CValidator.php(201): CInlineValidator->validateAttribute()
+#1 /home/lenin/www/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#2 /home/lenin/www/yiitwitter/protected/controllers/SiteController.php(94): LoginForm->validate()
+#3 /home/lenin/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#4 /home/lenin/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/lenin/www/yii/framework/web/CController.php(286): SiteController->runAction()
+#6 /home/lenin/www/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /home/lenin/www/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#10 /home/lenin/www/yiitwitter/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiitwitter/index.php?r=site/login
+in /home/lenin/www/yiitwitter/protected/components/UserIdentity.php (19)
+in /home/lenin/www/yiitwitter/protected/models/LoginForm.php (52)
+in /home/lenin/www/yiitwitter/protected/controllers/SiteController.php (94)
+2017/02/10 12:12:17 [error] [exception.CException] exception 'CException' with message 'TweetController no ha podido encontrar la vista "indextweets" solicitada.' in /home/lenin/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/lenin/www/yii/framework/web/CController.php(782): CController->renderPartial('indextweets', Array, true)
+#1 /home/lenin/www/yiitwitter/protected/controllers/TweetController.php(139): CController->render('indextweets', Array)
+#2 /home/lenin/www/yii/framework/web/actions/CInlineAction.php(49): TweetController->actionIndex()
+#3 /home/lenin/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/lenin/www/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/lenin/www/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/lenin/www/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/lenin/www/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/lenin/www/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/lenin/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/lenin/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#12 /home/lenin/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('tweet/')
+#13 /home/lenin/www/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#14 /home/lenin/www/yiitwitter/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yiitwitter/index.php?r=tweet/
+---

@@ -1,24 +1,16 @@
-<div class="view">
+<div class="tweet" style="color: #292f33; border-left: 1px solid #bfe0ec;
+border-right: 1px solid #bfe0ec;border-top: 1px solid #bfe0ec;cursor: pointer;padding: 10px;";>
 
-		<b><?php echo CHtml::encode($data->getAttributeLabel('id_tweet')); ?>:</b>
-	<?php echo CHtml::link(CHtml::encode($data->id_tweet),array('view','id'=>$data->id_tweet)); ?>
-	<br />
+<?php
+echo CHtml::image(Yii::app()->baseUrl."/images/".$tweet["foto_perfil"],$tweet["foto_perfil"], array("style"=>"float:left;margin-left: 3px;margin-top: 3px; border-radius: 5px;","height"=>"48", "width"=>"48") ); ?>
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('tweet')); ?>:</b>
-	<?php echo CHtml::encode($data->tweet); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('foto')); ?>:</b>
-	<?php echo CHtml::encode($data->foto); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('usuario')); ?>:</b>
-	<?php echo CHtml::encode($data->usuario); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('fecha_creacion')); ?>:</b>
-	<?php echo CHtml::encode($data->fecha_creacion); ?>
-	<br />
-
-
+<b><?php echo $tweet["nombre_completo"]."</b> @".$tweet["usuario"] ?>
+<br />
+<?php echo $tweet["tweet"] ?>
+<br />
+<b><?php echo $tweet["fecha_creacion"] ?></b>
+<br />
+<?php echo "Retweet".$tweet["retweet"] ?>
+<?php echo "Favorito".$tweet["favorito"] ?>
+<?php echo "Ver Detalles".$tweet["id_tweet"] ?>
 </div>

@@ -1,0 +1,21 @@
+<?php
+$this->breadcrumbs=array(
+	'Tweets',
+);
+
+$this->menu=array(
+array('label'=>'Create Tweet','url'=>array('create')),
+array('label'=>'Manage Tweet','url'=>array('admin')),
+);
+?>
+
+<h1>Tweets</h1>
+<?php
+
+foreach ($losTweets as $idtweet => $tweet){
+	
+$this->renderPartial('_view', array('tweet' => $tweet));
+
+}
+
+?>
