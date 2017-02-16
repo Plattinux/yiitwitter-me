@@ -9,7 +9,7 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<h1>Login</h1>
+<h1>Bienvenido a twitter</h1>
 
 <p>Please fill out the following form with your login credentials:</p>
 
@@ -46,7 +46,7 @@ $this->breadcrumbs=array(
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Login'); ?>
+		<?php echo CHtml::submitButton('Entrar'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

@@ -38,6 +38,24 @@ return false;
 )); ?>
 </div><!-- search-form -->
 
+<?php
+$this->widget(
+'booster.widgets.TbButtonGroup',
+array(
+'size' => 'large',
+'context' => 'primary',
+'buttons' => array(
+array(
+'label' => 'Reportes',
+'items' => array(
+array('label' => 'Exportar a excel', 'url' => Yii::app()->createUrl('usuario/excel' )),
+)
+),
+),
+)
+); ?>
+
+
 <?php $this->widget('booster.widgets.TbGridView',array(
 'id'=>'usuario-grid',
 'dataProvider'=>$model->search(),

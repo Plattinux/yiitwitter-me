@@ -156,6 +156,8 @@ array('foto_perfil', 'file', 'types' => 'jpg,jpeg,gif,png', 'allowEmpty'=>true, 
 		$criteria->compare('nombre_completo',$this->nombre_completo,true);
 		$criteria->compare('password',$this->password,true);
 		$criteria->compare('fk_idioma',$this->fk_idioma);
+//		$criteria->compare('fk_idioma',2);
+
 		$criteria->compare('fk_pais',$this->fk_pais);
 		$criteria->compare('fk_pregunta_secreta',$this->fk_pregunta_secreta);
 		$criteria->compare('respuesta_secreta',$this->respuesta_secreta,true);
@@ -166,6 +168,12 @@ array('foto_perfil', 'file', 'types' => 'jpg,jpeg,gif,png', 'allowEmpty'=>true, 
 		$criteria->compare('fecha_creacion',$this->fecha_creacion,true);
 		$criteria->compare('sitioweb',$this->sitioweb,true);
 		$criteria->compare('biografia',$this->biografia,true);
+
+$_SESSION['datos_usuario'] = new CActiveDataProvider($this, array(
+'criteria'=>$criteria,
+'sort'=>array( 'defaultOrder'=>'t.id_usuario DESC', ),
+'pagination'=>false,
+));
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
